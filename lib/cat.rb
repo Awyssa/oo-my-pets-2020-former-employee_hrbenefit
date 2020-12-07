@@ -1,5 +1,6 @@
 class Cat
-  attr_accessor :mood, :owner 
+  # code goes here
+  attr_accessor :mood, :owner
   attr_reader :name
 
   @@all = []
@@ -12,6 +13,6 @@ class Cat
   end
 
   def self.all
-    @all
+    @@all
   end
 end
